@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KeepCount</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="plusone">+ 1</string>
+    <string name="plusfive">+ 5</string>
+    <string name = "plusten">+ 10</string>
+    <string name="clr">Clear</string>
+    <string name="undo">Undo</string>
+    <string name="emptystack">--</string>
+    <string name="minone">- 1</string>
+    <string name="minfive">- 5</string>
+    <string name = "minten">- 10</string>
+</resources>
