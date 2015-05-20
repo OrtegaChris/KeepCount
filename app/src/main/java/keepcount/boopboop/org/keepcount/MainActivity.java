@@ -34,7 +34,9 @@ public class MainActivity extends ActionBarActivity {
         Button undo = (Button) findViewById(R.id.undo);
 
         ToggleButton negate = (ToggleButton) findViewById(R.id.negateButton);
+// add function to the negate button (ie switch the values added by each butt +1 --> -1)
 
+        
         final TextView ct = (TextView) findViewById(R.id.count);
         ct.setText(Integer.toString(count));
         ten.setOnClickListener(new View.OnClickListener() {
