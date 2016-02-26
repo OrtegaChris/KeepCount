@@ -60,17 +60,18 @@
 
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentEnd="true" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Mybuttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clr"
         android:id="@+id/clr"
         android:clickable="true"
         android:layout_above="@+id/plusone"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#b22222"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -88,9 +89,47 @@
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
         android:id="@+id/negateButton"
-        android:layout_below="@+id/plusten"
-        android:layout_centerHorizontal="true"
-        android:checked="false" />
+        android:layout_below="@+id/plusone"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/Mybuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:id="@+id/ButtonNewScreen"
+        android:layout_above="@+id/undo"
+        android:layout_alignStart="@+id/negateButton"
+        android:background="#1c83e4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/BrowserButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asyncButton"
+        android:id="@+id/asyncButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/undo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/appname"
+        android:contentDescription="@string/imagetest"
+
+        android:layout_alignEnd="@+id/appname"
+        android:layout_toEndOf="@+id/plusfive"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/negateButton" />
+
+    <!--android:textOff="Subtract"
+    android:textOn="Add" -->
+
 
 
 </RelativeLayout>
